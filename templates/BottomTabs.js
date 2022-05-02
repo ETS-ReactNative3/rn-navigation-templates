@@ -4,8 +4,6 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-const AnimatedTab = createMaterialBottomTabNavigator();
-const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
 const StackScreen = ({ animate, styles, item }) => (
@@ -35,7 +33,11 @@ const StackScreen = ({ animate, styles, item }) => (
 );
 
 export const BottomTabsAnimated = (props) => {
+  
+  const AnimatedTab = createMaterialBottomTabNavigator();
+
   return (
+    <>
     <NavigationContainer>
       <AnimatedTab.Navigator
         shifting={true}
@@ -59,13 +61,16 @@ export const BottomTabsAnimated = (props) => {
         })}
       </AnimatedTab.Navigator>
     </NavigationContainer>
+    </>
   );
 };
 
-export const BottomTabs = (props) => {
+export default BottomTabs = (props) => {
   
+  const Tab = createBottomTabNavigator();
 
   return (
+  <>
     <NavigationContainer>
       <Tab.Navigator
         shifting={true}
@@ -94,5 +99,6 @@ export const BottomTabs = (props) => {
         })}
       </Tab.Navigator>
     </NavigationContainer>
+    </>
   );
 };

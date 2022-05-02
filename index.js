@@ -1,4 +1,4 @@
-import { BottomTabsAnimated, BottomTabs } from "./templates/BottomTabs";
+import BottomTabs, { BottomTabsAnimated } from "./templates/BottomTabs";
 import { LDrawer, CDrawer } from "./templates/Drawer";
 import { TopTabsIconView, TopTabsTextView } from "./templates/TopTabs";
 
