@@ -16,7 +16,7 @@
     "tabs-ui",
     "navigation-ui"
   ],
-  "author": "Nikhil <nikhilbarot1602@gmail.com> (https://nikhil-portfolio-website.herokuapp.com/",
+  "author": "Nikhil <nikhilbarot1602@gmail.com> (https://nikhil-portfolio-website.herokuapp.com/)",
   "license": "ISC",
   "dependencies": {
     "@expo/vector-icons": "^12.0.0",
