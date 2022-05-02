@@ -1,6 +1,6 @@
 {
   "name": "rn-navigation-templates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "navigation templates for react-native",
   "main": "index.js",
   "type": "module",
