@@ -13,7 +13,7 @@ const StackScreen = ({ animate, styles, item }) => (
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: animate ? item.color : styles.BGCOLOR,
+          backgroundColor: animate ? item.color : styles.bgColor,
           elevation: 10,
           shadowColor: "grey",
         },
@@ -63,17 +63,14 @@ export const BottomTabsAnimated = (props) => {
 };
 
 export const BottomTabs = (props) => {
-  const isPropsThere = () => {
-    if (props !== undefined) return true;
-    else return false;
-  };
+  
 
   return (
     <NavigationContainer>
       <Tab.Navigator
         shifting={true}
         tabBarOptions={{ activeTintColor: props.styles.activeColor }}
-        initialRouteName={isPropsThere ? props.tabs[0].name : tabs[0].name}
+        initialRouteName={props.tabs[0].name}
         activeColor={props.styles.activeColor}>
         {props.tabs.map((item, ind) => {
           return (

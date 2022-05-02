@@ -15,6 +15,7 @@ export const TopTabsIconView = (props) => {
             },
             style: {
               backgroundColor: props.styles.BGCOLOR,
+              marginTop: 20,
             },
           }}>
           {props.tabs.map((item, ind) => {
@@ -47,6 +48,7 @@ export const TopTabsTextView = (props) => {
             },
             style: {
               backgroundColor: props.styles.BGCOLOR,
+              marginTop: 20,
             },
           }}>
           {props.tabs.map((item, ind) => {
