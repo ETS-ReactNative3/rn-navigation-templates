@@ -13,9 +13,9 @@ The package includes 6 different templates for navigation.
      <td align="center">BottomTabsAnimated</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Nikhil1602/Assets/blob/main/LDrawer.gif?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/Nikhil1602/Assets/blob/main/CDrawer.gif?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/Nikhil1602/Assets/blob/main/BottomTabsAnimated.gif?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/Nikhil1602/rn-navigation-templates/blob/main/gifs/LDrawer.gif?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/Nikhil1602/rn-navigation-templates/blob/main/gifs/CDrawer.gif?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/Nikhil1602/rn-navigation-templates/blob/main/gifs/BottomTabsAnimated.gif?raw=true" width=270 height=480></td>
   </tr>
   <tr>
      <td align="center">TopTabsIconView</td>
@@ -23,9 +23,9 @@ The package includes 6 different templates for navigation.
      <td align="center">BottomTabs</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Nikhil1602/Assets/blob/main/TopTabsIconView.gif?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/Nikhil1602/Assets/blob/main/TopTabsTextView.gif?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/Nikhil1602/Assets/blob/main/BottomTabs.gif?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/Nikhil1602/rn-navigation-templates/blob/main/gifs/TopTabsIconView.gif?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/Nikhil1602/rn-navigation-templates/blob/main/gifs/TopTabsTextView.gif?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/Nikhil1602/rn-navigation-templates/blob/main/gifs/BottomTabs.gif?raw=true" width=270 height=480></td>
   </tr>
 </table>
 
